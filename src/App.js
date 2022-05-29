@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import boxes from './boxes'
 import './App.css';
+import Box from './components/Box';
 
 function App() {
   const [squares, setSquares] = useState(boxes)
 
   const squaresElements = squares.map((square) => {
-    return <div className="box" key={square.id}></div>
+    return <Box key={square.id} on={square.on} />
   })
 
   return (
