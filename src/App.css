@@ -6,3 +6,12 @@
   height: 100vh;
   background-color: lightblue;
 }
+
+.box {
+  width: 10em;
+  height: 10em;
+  margin-right: 2em;
+  border: 1px solid #000;
+  border-radius: .5em;
+  background-color: transparent;
+}
